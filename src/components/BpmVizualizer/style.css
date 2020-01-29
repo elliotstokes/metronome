@@ -1,0 +1,43 @@
+.bpm-container {
+  width: 266px;
+  height: 266px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.circle {
+  border-radius: 50%;
+}
+
+.bpm-label {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  background-color: rgb(100, 188, 164);
+  color: rgb(22, 16, 32);
+  border-radius: 50%;
+  transform: translate(50%,50%);
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bpm-pulse {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color:  rgb(100, 188, 164);
+  animation-iteration-count: infinite;
+  animation-name: pulse-ring;
+  animation-timing-function: ease-out;
+}
+
+@keyframes pulse-ring {
+  0% {
+    transform: scale(.33);
+  }
+  80%, 100% {
+    opacity: 0;
+  }
+}

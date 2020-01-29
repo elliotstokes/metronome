@@ -1,24 +1,21 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { useState } from 'react';
+import BpmVizualizer from './components/BpmVizualizer'
+import BpmSelector from './components/BpmSelector'
+import BpmInfo from './components/BpmInfo'
+import { supportedBpms, bpmInfo } from './config/bpm'
 import './App.css';
 
 function App() {
+  const [bpm, setBpm] = useState(supportedBpms[0])
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>Digital Metronome</h1>
       </header>
+
+      <BpmVizualizer bpm={bpm} />
+      <BpmSelector selectedBpm={bpm} onSelectBpm={setBpm} />
+      <BpmInfo songs={bpmInfo[bpm]} />
     </div>
   );
 }

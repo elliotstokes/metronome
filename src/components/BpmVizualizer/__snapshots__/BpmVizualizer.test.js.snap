@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="bpm-container"
+>
+  <div
+    className="bpm-pulse circle"
+    style={
+      Object {
+        "animationDuration": "0.46875s",
+      }
+    }
+  />
+  <div
+    className="bpm-label circle"
+  >
+    128
+  </div>
+</div>
+`;

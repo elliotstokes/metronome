@@ -1,0 +1,102 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`getting bpm info from config 1`] = `
+Object {
+  "128": Array [
+    Object {
+      "artist": "Metallica",
+      "title": "Orion",
+    },
+    Object {
+      "artist": "Guns N' Roses",
+      "title": "Sweet Child o' Mine",
+    },
+    Object {
+      "artist": "Muse",
+      "title": "Uprising",
+    },
+  ],
+  "138": Array [
+    Object {
+      "artist": "Michael Jackson",
+      "title": "Beat It",
+    },
+    Object {
+      "artist": "Coldplay",
+      "title": "Viva la Vida",
+    },
+  ],
+  "72": Array [
+    Object {
+      "artist": "Queen",
+      "title": "Bohemian Rhapsody",
+    },
+    Object {
+      "artist": "Eminem",
+      "title": "Rap God",
+    },
+  ],
+  "74": Array [
+    Object {
+      "artist": "Coldplay",
+      "title": "The Scientist",
+    },
+    Object {
+      "artist": "Dire Straits",
+      "title": "Sultans of Swing",
+    },
+  ],
+  "82": Array [
+    Object {
+      "artist": "Panic! at the Disco",
+      "title": "High Hopes",
+    },
+    Object {
+      "artist": "John Denver",
+      "title": "Take Me Home, Country Roads",
+    },
+  ],
+  "84": Array [
+    Object {
+      "artist": "The Cranberries",
+      "title": "Zombie",
+    },
+    Object {
+      "artist": "Eminem",
+      "title": "Till I Collapse",
+    },
+  ],
+  "87": Array [
+    Object {
+      "artist": "Oasis",
+      "title": "Wonderwall",
+    },
+  ],
+  "92": Array [
+    Object {
+      "artist": "Radiohead",
+      "title": "Creep",
+    },
+  ],
+  "96": Array [
+    Object {
+      "artist": "Ed Sheeran",
+      "title": "Shape of You",
+    },
+  ],
+}
+`;
+
+exports[`getting supported bpms 1`] = `
+Array [
+  72,
+  74,
+  82,
+  84,
+  87,
+  92,
+  96,
+  128,
+  138,
+]
+`;

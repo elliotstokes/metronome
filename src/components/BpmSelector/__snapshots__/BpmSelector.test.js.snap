@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="bpm-selector"
+>
+  <div>
+    <button
+      className="bpm-button bpm-selected"
+      onClick={[Function]}
+    >
+      72 BPM
+    </button>
+  </div>
+  <div>
+    <button
+      className="bpm-button"
+      onClick={[Function]}
+    >
+      74 BPM
+    </button>
+  </div>
+  <div>
+    <button
+      className="bpm-button"
+      onClick={[Function]}
+    >
+      82 BPM
+    </button>
+  </div>
+  <div>
+    <button
+      className="bpm-button"
+      onClick={[Function]}
+    >
+      84 BPM
+    </button>
+  </div>
+  <div>
+    <button
+      className="bpm-button"
+      onClick={[Function]}
+    >
+      87 BPM
+    </button>
+  </div>
+  <div>
+    <button
+      className="bpm-button"
+      onClick={[Function]}
+    >
+      92 BPM
+    </button>
+  </div>
+  <div>
+    <button
+      className="bpm-button"
+      onClick={[Function]}
+    >
+      96 BPM
+    </button>
+  </div>
+  <div>
+    <button
+      className="bpm-button"
+      onClick={[Function]}
+    >
+      128 BPM
+    </button>
+  </div>
+  <div>
+    <button
+      className="bpm-button"
+      onClick={[Function]}
+    >
+      138 BPM
+    </button>
+  </div>
+</div>
+`;

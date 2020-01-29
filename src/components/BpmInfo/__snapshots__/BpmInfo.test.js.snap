@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly when empty 1`] = `
+<div>
+  <h2>
+    Songs that use this BPM:
+  </h2>
+  <ul
+    className="bpm-songlist"
+  />
+</div>
+`;
+
+exports[`renders correctly with songs 1`] = `
+<div>
+  <h2>
+    Songs that use this BPM:
+  </h2>
+  <ul
+    className="bpm-songlist"
+  >
+    <li
+      className="bpm-songlist-info"
+    >
+      Bohemian Rhapsody (Queen)
+    </li>
+    <li
+      className="bpm-songlist-info"
+    >
+      Rap God (Eminem)
+    </li>
+  </ul>
+</div>
+`;
